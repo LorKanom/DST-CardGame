@@ -1,0 +1,31 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url(img/beckground/beckgroundDST1.png);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+div{
+  display: flex;/*método de organização*/
+  justify-content: center;/*manter os itens no centro*/
+  align-items: center;/*manter os objetos centralizados*/
+  height: 615px;/*tamanho da div em pixel(px)*/
+}
+
+a{
+  text-decoration: none; /*tira a parte sublinhada da ancora*/  
+}
+
+h1{
+  color: black; /*muda a cor da letra*/ 
+  font-size: 62px; /*tamanho da fonte*/
+}
+
+h1:hover{
+  color: yellow;
+  transition: 0.7s ease;
+}
