@@ -1,0 +1,51 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-image: url(img/beckground/beckgroundDST1.png);
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+div{
+  position: relative;
+  width: 500px;
+  height: 440px;
+  border: 2px solid white;
+  border-radius: 20px;
+  backdrop-filter: blur(7px);
+  box-shadow: 0 0 30px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.2);
+  margin-left: 33em;
+  margin-top: 7em;
+}
+
+a{
+  text-decoration: none; /*tira a parte sublinhada da ancora*/  
+}
+
+ol{
+  list-style-type: none;  
+  margin-right: 2em;
+}
+
+li{
+  padding: 9px;
+}
+
+p{
+  color: white;
+  font-size: 20px;
+}
+
+p:hover{
+  color: yellow;
+  transition: 0.7s ease;
+}
+
